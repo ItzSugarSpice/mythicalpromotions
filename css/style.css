@@ -1,7 +1,13 @@
-body {
-    background-color: #111827;
+/* Remove browser defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-h1 {
+/* Style the whole page */
+body {
+    background-color: #111827;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
