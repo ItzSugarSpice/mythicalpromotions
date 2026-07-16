@@ -1,6 +1,6 @@
-/* ==========================
+/* ==========================================
    RESET
-========================== */
+========================================== */
 
 * {
     margin: 0;
@@ -8,48 +8,132 @@
     box-sizing: border-box;
 }
 
-/* ==========================
+/* ==========================================
    PAGE
-========================== */
+========================================== */
 
 body {
-    background-color: #111827;
+
+    background: #111827;
+
     color: white;
+
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
-/* ==========================
+/* ==========================================
    HEADER
-========================== */
+========================================== */
 
 header {
-    padding: 40px 0;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 25px 60px;
+
 }
 
-h1 {
+/* ==========================================
+   LOGO
+========================================== */
+
+.logo {
+
     color: #8b5cf6;
-    font-size: 60px;
-    text-align: center;
+
+    font-size: 34px;
+
+    font-weight: bold;
+
 }
 
-/* ==========================
-   HERO SECTION
-========================== */
+/* ==========================================
+   NAVIGATION
+========================================== */
+
+nav {
+
+    display: flex;
+
+    gap: 30px;
+
+    align-items: center;
+
+}
+
+nav a {
+
+    color: white;
+
+    text-decoration: none;
+
+    transition: .25s;
+
+}
+
+nav a:hover {
+
+    color: #8b5cf6;
+
+}
+
+/* ==========================================
+   BUTTON
+========================================== */
+
+.join-button {
+
+    background: #8b5cf6;
+
+    padding: 12px 22px;
+
+    border-radius: 8px;
+
+}
+
+.join-button:hover {
+
+    background: #6d3de0;
+
+    color: white;
+
+}
+
+/* ==========================================
+   HERO
+========================================== */
 
 .hero {
+
     text-align: center;
-    margin-top: 60px;
+
+    margin-top: 150px;
+
 }
 
-.hero h2 {
-    font-size: 42px;
-    margin-bottom: 20px;
+.hero h1 {
+
+    font-size: 64px;
+
+    margin-bottom: 25px;
+
 }
 
 .hero p {
-    width: 700px;
-    margin: auto;
-    font-size: 20px;
+
+    font-size: 22px;
+
     color: #cbd5e1;
-    line-height: 1.6;
+
+    width: 750px;
+
+    margin: auto;
+
+    line-height: 1.7;
+
 }
